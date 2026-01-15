@@ -1,9 +1,9 @@
 import React from 'react'
-import './Hero.css'
+import styles from'./Hero.module.css'
 export default function Hero() {
   return (
     <>
-    <section className="Hero py-5">
+    <section className={`${styles.Hero} py-5`}>
         <div className=' d-flex justify-content-center align-items-center'>
             <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="avatar for bootstrap" className='img-fluid w-25 h-25'/>
         </div>
@@ -27,7 +27,7 @@ export default function Hero() {
 
             <div className='Line'></div>
         </div>
-        <div className='hero-details text-center mt-3'>
+        <div className={`${styles.hero-details} text-center mt-3`}>
             <p>Graphic Artist - Web Designer - Illustrator</p>
             
         </div>
