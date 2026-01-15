@@ -1,0 +1,21 @@
+.Hero{
+    background-color:#1abc9c;
+  
+}
+.Hero-text{
+    color:white;
+    text-transform: uppercase;
+     font-weight: bolder;
+     font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+
+}
+.Line{
+width:150px;
+  height: 5px;
+  background-color: white;
+}
+.hero-details{
+    font-size: 24px;
+    color:white;
+}
