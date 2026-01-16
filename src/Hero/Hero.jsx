@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from'./Hero.module.css'
+import styles from './Hero.module.css'
 export default function Hero() {
   return (
     <>
@@ -8,12 +8,12 @@ export default function Hero() {
             <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="avatar for bootstrap" className='img-fluid w-25 h-25'/>
         </div>
         <div>
-            <h1 className='Hero-text text-center mt-5'>Start Bootstrap
+            <h1 className={`${styles.HeroText}  text-center mt-5`}>Start Bootstrap
 </h1>
         </div>
         <div className='d-flex gap-3 justify-content-center align-items-center mt-3'>
-            <div className='Line  justify-content-start' ></div>
-            <div className="Star">
+            <div className={`${styles.Line} justify-content-start`} ></div>
+            <div className={styles.star}>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 576 512"
@@ -25,9 +25,9 @@ export default function Hero() {
   </svg>
 </div>
 
-            <div className='Line'></div>
+            <div className={styles.Line}></div>
         </div>
-        <div className={`${styles.hero-details} text-center mt-3`}>
+        <div className={`${styles.heroDetails} text-center mt-3`}>
             <p>Graphic Artist - Web Designer - Illustrator</p>
             
         </div>

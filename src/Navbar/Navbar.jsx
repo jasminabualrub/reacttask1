@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
 
 
-    <nav style={{backgroundColor: 'red'}} className={`navbar navbar-expand-lg ${styles.bgDarknavy} position-sticky navbar-dark p-3`}>
+    <nav  className={`navbar navbar-expand-lg ${styles.bgDarknavy} position-sticky navbar-dark p-3`}>
   <div className="container">
     <a className="navbar-brand" href="#"><h2>STARTBOOTSTRAP</h2></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

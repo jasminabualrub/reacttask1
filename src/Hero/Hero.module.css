@@ -2,7 +2,7 @@
     background-color:#1abc9c;
   
 }
-.Hero-text{
+.HeroText{
     color:white;
     text-transform: uppercase;
      font-weight: bolder;
@@ -15,7 +15,7 @@ width:150px;
   height: 5px;
   background-color: white;
 }
-.hero-details{
+.heroDetails{
     font-size: 24px;
     color:white;
 }
