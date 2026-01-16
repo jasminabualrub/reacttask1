@@ -1,0 +1,22 @@
+.About{
+    background-color:#1abc9c;
+}
+.AboutText{
+    color:white;
+    text-transform: uppercase;
+     font-weight: bolder;
+     font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+
+}
+.Line{
+width:150px;
+  height: 5px;
+  background-color: white;
+}
+.About .row{
+  padding:50px;
+}
+.About button svg{
+  width:40px;
+}
