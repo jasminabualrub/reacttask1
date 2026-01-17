@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar'
 import Hero from './Hero/Hero'
 import Portfolio from './Portfolio/Portfolio'
 import About from './About/About'
+import Contact from './Contact/Contact'
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
 <Hero/>
 <Portfolio/>
 <About/>
+<Contact/>
   </>
   )
 }

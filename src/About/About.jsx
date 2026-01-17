@@ -7,8 +7,8 @@ export default function About() {
     <section className={`${styles.About} py-5  `}>
     
          <div>
-                <h1 className={`${styles.AboutText}  text-center mt-5`}>About
-    </h1>
+                <h2 className={`${styles.AboutText}  text-center mt-5`}>About
+    </h2>
             </div>
             <div className='d-flex gap-3 justify-content-center align-items-center mt-3'>
                 <div className={`${styles.Line} justify-content-start`} ></div>

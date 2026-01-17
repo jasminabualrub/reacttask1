@@ -15,8 +15,8 @@ export default function Portfolio() {
     <section className={`${styles.portfolio} py-5`}>
         <div className="container d-flex flex-column justify-content-center align-items-center ">
               <div>
-                      <h1 className={`${styles.PortfolioText}  text-center mt-5`}>portfolio 
-          </h1>
+                      <h2 className={`${styles.PortfolioText}  text-center mt-5`}>portfolio 
+          </h2>
                   </div>
               <div className='d-flex gap-3 justify-content-center align-items-center mt-3'>
             <div className={`${styles.Line}   justify-content-start`} ></div>

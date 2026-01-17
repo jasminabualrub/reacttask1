@@ -1,0 +1,32 @@
+.ContactText{
+    color:#2c3e50;
+    text-transform: uppercase;
+     font-weight: bolder;
+     font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+
+}
+.Line{
+width:150px;
+  height: 5px;
+  background-color: #2c3e50;
+}
+.formlLabel{
+    font-size:22px;
+      font-family: "Montserrat", sans-serif;
+color:gray;
+}
+.borderButtom{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.sendBtn{
+   
+    padding: 15px;
+    background-color:#1abc9c;
+    text-align: center;
+    color: white;
+       font-size: 17px;
+      font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
