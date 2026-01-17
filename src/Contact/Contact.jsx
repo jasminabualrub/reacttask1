@@ -3,7 +3,7 @@ import styles from './Contact.module.css'
 
 export default function Contact() {
   return (
-   <section className='Contact'>
+   <section className='Contact py-5'>
     <div className='container'>
          <h2 className={`${styles.ContactText}  text-center mt-5`}>Contact me
         </h2>
